@@ -6,7 +6,9 @@ import sys
 
 def main():
     if os.environ.get("DJANGO_ENV") in ["develop"]:
-        os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cressive_test.settings.develop")
+        os.environ.setdefault(
+            "DJANGO_SETTINGS_MODULE", "cressive_test.settings.develop"
+        )
     else:
         os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cressive_test.settings.local")
     try:
@@ -20,5 +22,5 @@ def main():
     execute_from_command_line(sys.argv)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

@@ -1,0 +1,151 @@
+1683596041187	geckodriver	INFO	Listening on 127.0.0.1:45409
+1683596041701	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "42959" "-no-remote" "-profile" "/tmp/rust_mozprofileLxYadq"
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.189423) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.189423) |[1][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.189466) [GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.189423) |[1][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.189466) |[2][GFX1-]: PCI candidate 0x8086/0x3e9b (t=0.189478) [GFX1-]: PCI candidate 0x8086/0x3e9b
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.189423) |[1][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.189466) |[2][GFX1-]: PCI candidate 0x8086/0x3e9b (t=0.189478) |[3][GFX1-]: PCI candidate 0x10de/0x1f91 (t=0.189517) [GFX1-]: PCI candidate 0x10de/0x1f91
+1683596041902	Marionette	INFO	Marionette enabled
+1683596041905	Marionette	INFO	Listening on port 38141
+WebDriver BiDi listening on ws://127.0.0.1:42959
+1683596042162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.189423) |[1][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.189466) |[2][GFX1-]: PCI candidate 0x8086/0x3e9b (t=0.189478) |[3][GFX1-]: PCI candidate 0x10de/0x1f91 (t=0.189517) |[4][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.640217) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLxYadq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42959/devtools/browser/dc64532a-34b3-4c14-af68-4d6ceb0d9a0e
+1683596101199	geckodriver	INFO	Listening on 127.0.0.1:39649
+1683596101713	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "44831" "-no-remote" "-profile" "/tmp/rust_mozprofilef74uhC"
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.185308) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.185308) |[1][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.185348) [GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.185308) |[1][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.185348) |[2][GFX1-]: PCI candidate 0x8086/0x3e9b (t=0.18536) [GFX1-]: PCI candidate 0x8086/0x3e9b
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.185308) |[1][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.185348) |[2][GFX1-]: PCI candidate 0x8086/0x3e9b (t=0.18536) |[3][GFX1-]: PCI candidate 0x10de/0x1f91 (t=0.185371) [GFX1-]: PCI candidate 0x10de/0x1f91
+1683596101908	Marionette	INFO	Marionette enabled
+1683596101911	Marionette	INFO	Listening on port 35669
+WebDriver BiDi listening on ws://127.0.0.1:44831
+1683596101992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.185308) |[1][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.185348) |[2][GFX1-]: PCI candidate 0x8086/0x3e9b (t=0.18536) |[3][GFX1-]: PCI candidate 0x10de/0x1f91 (t=0.185371) |[4][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.62678) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef74uhC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44831/devtools/browser/a1a32ef2-aa8d-432c-bc10-bf6274b733db
+1683596161235	geckodriver	INFO	Listening on 127.0.0.1:59187
+1683596161740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "47625" "-no-remote" "-profile" "/tmp/rust_mozprofilehrAnBc"
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.176251) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.176251) |[1][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.176303) [GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.176251) |[1][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.176303) |[2][GFX1-]: PCI candidate 0x8086/0x3e9b (t=0.176353) [GFX1-]: PCI candidate 0x8086/0x3e9b
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.176251) |[1][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.176303) |[2][GFX1-]: PCI candidate 0x8086/0x3e9b (t=0.176353) |[3][GFX1-]: PCI candidate 0x10de/0x1f91 (t=0.176366) [GFX1-]: PCI candidate 0x10de/0x1f91
+1683596161934	Marionette	INFO	Marionette enabled
+1683596161937	Marionette	INFO	Listening on port 45241
+WebDriver BiDi listening on ws://127.0.0.1:47625
+1683596162014	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.176251) |[1][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.176303) |[2][GFX1-]: PCI candidate 0x8086/0x3e9b (t=0.176353) |[3][GFX1-]: PCI candidate 0x10de/0x1f91 (t=0.176366) |[4][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.601229) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehrAnBc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47625/devtools/browser/73f7cf85-f513-41f9-a166-f0239bbf7c52
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint line 5910 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint line 5910 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint line 5910 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint line 5910 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1683596164537	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1683596164546	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint line 5909 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint line 5909 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint line 5909 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint line 5909 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=2 line 6080 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=2 line 6080 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=2 line 6080 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=2 line 6080 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=3 line 5916 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=3 line 5916 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=3 line 5916 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=3 line 5916 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=4 line 5913 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=4 line 5913 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=4 line 5913 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=4 line 5913 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=5 line 5913 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=5 line 5913 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=5 line 5913 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/s?k=Clean+car+paint&page=5 line 5913 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://m.media-amazon.com/images/I/714nITfCSzL.js, line 2: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://www.amazon.co.uk/Touch-Paint-Mixed-Registration-Perfect/dp/B09TTDS99Z/ref=sr_1_1_sspa?keywords=Clean+car+paint&qid=1683596164&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 line 10134 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/Touch-Paint-Mixed-Registration-Perfect/dp/B09TTDS99Z/ref=sr_1_1_sspa?keywords=Clean+car+paint&qid=1683596164&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 line 10134 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.amazon.co.uk/Touch-Paint-Mixed-Registration-Perfect/dp/B09TTDS99Z/ref=sr_1_1_sspa?keywords=Clean+car+paint&qid=1683596164&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 line 10134 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/Touch-Paint-Mixed-Registration-Perfect/dp/B09TTDS99Z/ref=sr_1_1_sspa?keywords=Clean+car+paint&qid=1683596164&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 line 10134 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.amazon.co.uk/All-Shine-contamination-Industrial-Over-spray/dp/B00E40PAAC/ref=sr_1_2_sspa?keywords=Clean+car+paint&qid=1683596164&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 line 9801 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/All-Shine-contamination-Industrial-Over-spray/dp/B00E40PAAC/ref=sr_1_2_sspa?keywords=Clean+car+paint&qid=1683596164&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 line 9801 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.amazon.co.uk/All-Shine-contamination-Industrial-Over-spray/dp/B00E40PAAC/ref=sr_1_2_sspa?keywords=Clean+car+paint&qid=1683596164&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 line 9801 > injectedScript, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.amazon.co.uk/All-Shine-contamination-Industrial-Over-spray/dp/B00E40PAAC/ref=sr_1_2_sspa?keywords=Clean+car+paint&qid=1683596164&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 line 9801 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)

@@ -3,9 +3,11 @@ from scraping.models import KeyWord
 
 
 class StartScrapingSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = KeyWord
-        ordering = ['name']
-        fields = ('id', 'name',  'date', )
-        #fields = ('id', 'title', 'description', 'price', 'rating')
+        ordering = ["name"]
+        fields = (
+            "id",
+            "name",
+            "date",
+        )

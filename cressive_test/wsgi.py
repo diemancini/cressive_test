@@ -14,8 +14,8 @@ from django.core.wsgi import get_wsgi_application
 env = os.environ.get("DJANGO_ENV")
 
 if env in ["develop"]:
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "metastore.settings.develop")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cressive_test.settings.develop")
 else:
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "metastore.settings.local")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cressive_test.settings.local")
 
 application = get_wsgi_application()

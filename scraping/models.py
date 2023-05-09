@@ -1,7 +1,7 @@
 from django.db import models
 
-class KeyWord(models.Model):
 
+class KeyWord(models.Model):
     class Meta:
         db_table = "Keyword"
 
@@ -13,7 +13,6 @@ class KeyWord(models.Model):
 
 
 class BaseScraping(models.Model):
-
     class Meta:
         db_table = "BaseScraping"
 
@@ -21,19 +20,16 @@ class BaseScraping(models.Model):
     description = models.CharField(max_length=254)
     price = models.DecimalField(max_digits=13, decimal_places=2)
     rating = models.DecimalField(max_digits=3, decimal_places=2)
-    #sponsored = models.BooleanField(default=False)
 
     def __str__(self):
         return self.title
-    
-class Sponsored(BaseScraping):
 
+
+class Sponsored(BaseScraping):
     class Meta:
         db_table = "Sponsored"
 
-class Organic(BaseScraping):
 
+class Organic(BaseScraping):
     class Meta:
         db_table = "Organic"
-
-

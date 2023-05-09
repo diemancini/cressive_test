@@ -1,7 +1,6 @@
 from rest_framework import (
     viewsets,
     permissions,
-    viewsets,
 )
 from rest_framework.response import Response
 from scraping.models import KeyWord
@@ -13,9 +12,8 @@ from api_v1.serializers.scraping import (
 )
 from scraping.scraping import Scraping
 
-class ScrapingStartViewSet(
-    viewsets.GenericViewSet
-):
+
+class ScrapingStartViewSet(viewsets.GenericViewSet):
     permission_classes = [permissions.IsAuthenticated]
     serializer_class = StartScrapingSerializer
 
@@ -26,13 +24,9 @@ class ScrapingStartViewSet(
         response = scraping.start_scraping(results)
 
         return Response(response)
-    
+
     def get_queryset(self):
         date = datetime.now()
-        data = KeyWord.objects.filter(date=date).order_by('name')
-        
+        data = KeyWord.objects.filter(date=date).order_by("name")
+
         return data
-
-
-
-

@@ -15,8 +15,8 @@ RUN apk --update add python3 py3-pip
 ADD requirements.txt /code/requirements.txt
 
 RUN set -ex \
-    && pip3 install --upgrade pip \
-    && pip3 install --no-cache-dir -r /code/requirements.txt
+    && pip3 install --upgrade pip --ignore-installed packaging \
+    && pip3 install --ignore-installed packaging  --no-cache-dir -r /code/requirements.txt
 
 # Configuration for cron
 RUN mkdir /cron
