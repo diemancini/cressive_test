@@ -130,7 +130,7 @@ This project uses pytest to make unit tests. To execute the tests, use the comma
 
 ### Notes
 
-    For running lint, formating and unit tests commands, you MUST use the 'command' in docker-compose file (3.4 section).
+For running lint, formating and unit tests commands, you MUST use the 'command' in docker-compose file (3.4 section).
 
 ## Issues and Improvements
 
