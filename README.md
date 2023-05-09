@@ -120,6 +120,18 @@ And for formating:
     docker-compose run web python -m black {directory or file path}
 ```
 
+### Unit Tests
+
+This project uses pytest to make unit tests. To execute the tests, use the command below:
+
+```bash
+    docker-compose run web python -m pytest
+```
+
+### Notes
+
+    For running lint, formating and unit tests commands, you MUST use the 'command' in docker-compose file (3.4 section).
+
 ## Issues and Improvements
 
 ### Issues
