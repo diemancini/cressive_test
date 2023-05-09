@@ -104,7 +104,7 @@ This will be triggered by endpoint:
 ```
 
 Where this automatically activate the scraping script, which will be still running in background after the response of endpoint.
-The endpoint will be triggered by a crontab app, filtered the keywords by the date that word was created.
+The endpoint will be triggered by crontab app, filtered the keywords by date that word was created.
 
 ### Lint and Formating code
 
