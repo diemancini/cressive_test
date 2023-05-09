@@ -33,8 +33,8 @@ After the command above, you should see a new shell terminal and insert this scr
 
     user_model = get_user_model()
     u = user_model.objects.create_superuser(
-        username="diego.mancini",
-        email="diego.mancini@admin.com",
+        username="yourname",
+        email="yourname@admin.com",
         password="123456"
     )
     exit()

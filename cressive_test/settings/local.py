@@ -26,5 +26,5 @@ DATABASES = {
 
 SHOW_PASSWORD_LOGIN = True
 
-CRONJOBS = [("*/1 * * * *", "scraping.cron.start_scraping", ">> /cron/django_cron.log")]
+CRONJOBS = [("55 23 * * *", "scraping.cron.start_scraping", ">> /cron/django_cron.log")]
 CRONTAB_COMMAND_SUFFIX = "2>&1"
